@@ -1,37 +1,27 @@
 ---
-# try also 'default' to start simple
-theme: default
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
+theme: ./theme
 background: https://source.unsplash.com/collection/94734566/1920x1080
-# apply any windi css classes to the current slide
-class: 'text-center'
-# https://sli.dev/custom/highlighters.html
+class: text-center
 highlighter: shiki
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
-  ## What if _your_Frontend_framework_ will die?
+  ## What if _your _Frontend _framework _ will die?
 
 
   Learn more at [dawidjaniga.pl/codeeurope](https://dawidjaniga.pl/codeeurope)
-# persist drawings in exports and build
 drawings:
   persist: false
+title: What if your Frontend framework will die?
 ---
 
-# What if _your_Frontend_framework_ will die?
+# What if your Frontend framework will die?
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+  <a href="vscode://file/Users/dawidjaniga/Projects/pomoguru/packages/client/src/domain/timer/useCase/GetTimers.ts:18" title="Open Use Case Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon:edit />
-  </button>
+  </a>
 </div>
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
 
 ---
 
@@ -57,8 +47,8 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 
 <style>
 h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-color: #bbdf32;
+  background-image: linear-gradient(45deg, #d8f85d 10%, #9cbd1d 20%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
