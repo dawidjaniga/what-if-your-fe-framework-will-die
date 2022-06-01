@@ -1,6 +1,6 @@
 :root {
     --geist-error: #e00;
-    --geist-success: #0070f3;
+    --geist-success: #bbdf32;
     --geist-warning: #f5a623;
     --geist-violet: #7928ca;
     --geist-cyan-light: #79ffe1;
@@ -58,6 +58,19 @@ html.dark {
     background-color: var(--geist-background);
     padding: 2rem 3rem;
     height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    background-color: #bbdf32;
+    background-image: linear-gradient(29deg, #daff4c, #627715);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 h1 {

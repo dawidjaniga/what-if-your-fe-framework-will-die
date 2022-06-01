@@ -11,10 +11,7 @@
         "url": "https://nicob.dev/"
     },
     "license": "MIT",
-    "keywords": [
-        "slidev-theme",
-        "slidev"
-    ],
+    "keywords": ["slidev-theme", "slidev"],
     "engines": {
         "node": ">=14",
         "slidev": ">=0.20"
