@@ -51,6 +51,15 @@ title: What if your Frontend framework will die?
 </ul>
 ---
 
+
+# Why should I care?
+
+<ul class='text-2xl'>
+<li v-click>📊 <strong>Product Management</strong> - architecture enables product vision</li>
+<li v-click>⚙️ <strong>Software Architecture</strong> - you want to leave your options open</li>
+
+</ul>
+
 # How can we safe our products from FE trends?
 
 ---
