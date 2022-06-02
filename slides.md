@@ -60,12 +60,11 @@ title: What if your Frontend framework will die?
 
 </ul>
 
+---
 # How can we safe our products from FE trends?
 
 ---
-
 # Architecture & Business Logic
-
 ## Domain logic
 <ul>
 <li v-click>User, Timer, Settings...</li>
@@ -78,6 +77,7 @@ title: What if your Frontend framework will die?
 <li v-click>UI, Components, Styles...</li>
 <li v-click>How the product should <strong>looks like</strong>?</li>
 </ul>
+<div v-click>Which opens the topic of Clean Architecture...</div>
 
 ---
 # Clean Architecture
